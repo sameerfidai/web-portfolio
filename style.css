@@ -306,7 +306,6 @@ h6 {
 
 .social-links {
     display: grid;
-    align-content: center;
     justify-content: center;
 }
 
@@ -316,7 +315,7 @@ h6 {
     background-color: white;
     border: 2px solid var(--borderColor);
     border-radius: 25%;
-    margin-left: 50%;
+    margin-left: 37%;
     margin-top: 10px;
     -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
@@ -329,7 +328,7 @@ h6 {
     background-color: white;
     border: 2px solid var(--borderColor);
     border-radius: 25%;
-    margin-left: 50%;
+    margin-left: 37%;
     margin-top: 10px;
     -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
@@ -342,7 +341,7 @@ h6 {
     background-color: white;
     border: 2px solid var(--borderColor);
     border-radius: 25%;
-    margin-left: 50%;
+    margin-left: 37%;
     margin-top: 10px;
     -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
