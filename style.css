@@ -88,6 +88,38 @@ h6 {
     overflow: auto;
 }
 
+.nav-bar {
+    z-index: 999;
+    top: 0;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticky {
+    background-color: var(--borderColor);
+    top: 0;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-bar li {
+    margin: 15px;
+}
+
+.nav-bar li:hover {
+    font-size: 20px;
+}
+
 .main-container {
     width: 1200px;
     margin: 0 auto;
@@ -139,6 +171,18 @@ h6 {
     display: inline-block;
     margin-right: 5px;
     margin-left: 5px;
+}
+
+#home {
+    padding: 50px;
+}
+
+#projects {
+    padding: 50px;
+}
+
+#contact {
+    padding: 25;
 }
 
 .dots-wrapper {

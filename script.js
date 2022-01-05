@@ -1,3 +1,8 @@
+window.addEventListener("scroll", function () {
+    var header = this.document.querySelector(".nav-bar");
+    header.classList.toggle("sticky", window.scrollY > 0);
+});
+
 let theme = localStorage.getItem("theme");
 
 if (theme == null) {

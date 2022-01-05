@@ -22,8 +22,18 @@
     <body>
         <section class="s1">
             <div class="main-container">
+                <!--NAV BAR-->
+                <nav class="nav-bar">
+                    <ul>
+                        <a href="#home"><li>Home</li></a>
+                        <a href="#about"><li>About</li></a>
+                        <a href="#projects"><li>Projects</li></a>
+                        <a href="#contact"><li>Contact</li></a>
+                    </ul>
+                </nav>
+
                 <div class="greeting-wrapper">
-                    <h1>print("Hello World")</h1>
+                    <h1 id="home">print("Hello World")</h1>
                 </div>
 
                 <div class="intro-wrapper">
@@ -101,7 +111,7 @@
 
         <section class="s2">
             <div class="main-container">
-                <div class="about-wrapper">
+                <div class="about-wrapper" id="about">
                     <div class="about-me">
                         <h4>More about me</h4>
                         <p>I like playing Soccer and Basketball</p>
@@ -156,7 +166,7 @@
 
         <section class="s1">
             <div class="main-container">
-                <h3 style="text-align: center">Projects</h3>
+                <h3 style="text-align: center" id="projects">Projects</h3>
 
                 <div class="post-wrapper">
                     <a
@@ -231,7 +241,7 @@
         <!-- Form -->
         <section class="s2">
             <div class="main-container">
-                <h3 style="text-align: center">Get in touch</h3>
+                <h3 style="text-align: center" id="contact">Get in touch</h3>
 
                 <form
                     id="contact-form"
